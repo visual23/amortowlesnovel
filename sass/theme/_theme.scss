@@ -53,13 +53,15 @@ body {
 .option-1 .hero {
     background-image: url(../img/background.png);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #1a1a1c;
 }
 .option-2 .hero {
     background-image: url(../img/background-red.png);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #f1405c;
 }
 .option-3 .hero {

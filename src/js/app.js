@@ -2,9 +2,6 @@ $(document).foundation();
 
 (function ($, undefined) { 
     "use strict";
-    var win;
-    var ww;
-    var wh;
 
     $(document).ready(function () {
         var active_variation = 1;
@@ -32,15 +29,6 @@ $(document).foundation();
           moreLink: '<a href="#" class="read-more-button">Read more</a>',
           lessLink: '<a href="#" class="read-less-button">Read less</a>'
         });
-        
-        $(window).resize();
-    });
-
-    $(window).resize(function () {
-
-        win = $(window);
-        ww = win.width();
-        wh = win.height();
     });
 
 })(jQuery); 
